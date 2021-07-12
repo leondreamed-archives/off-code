@@ -3,6 +3,11 @@
 	"displayName": "off-code",
 	"description": "An extension that shuts off VSCode during specified times of the day.",
 	"version": "0.0.1",
+	"publisher": "leonzalion",
+	"repository": {
+		"url": "https://github.com/leonzalion/off-code"
+	},
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
