@@ -19,7 +19,7 @@ export async function activate(context: vscode.ExtensionContext) {
   const today = dayjs().tz();
   const todayHour = today.hour();
 
-  if (todayHour > 12) {
+  if (todayHour < 12) {
     vscode.window.showErrorMessage("It's not past 12PM yet...closing VSCode!");
     setTimeout(() => {
       vscode.commands.executeCommand("workbench.action.closeWindow");
